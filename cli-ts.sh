@@ -15,4 +15,4 @@ printf "		  \e[3mCLI Timesheet by @eetukarttunen\e[0m\n\n"
 
 # Logic for asking current work
 read -p "What are you currently working on? " task
-echo $task
+echo "$task"
